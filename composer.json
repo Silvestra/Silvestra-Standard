@@ -1,9 +1,6 @@
 {
-    "name": "silvestra/silvestra",
+    "name": "silvestra/silvestra-standard",
     "type": "project",
-    "autoload": {
-        "psr-0": { "": "src/", "SymfonyStandard": "app/" }
-    },
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.5.*",
@@ -32,17 +29,8 @@
         "sensio/generator-bundle": "~2.3",
         "tadcka/generator-bundle": "dev-master",
         "phpunit/phpunit": "~4.2"
-    },
-    "repositories": [
-        {
-            "type": "git",
-            "url" : "https://github.com/tadcka/Tree.git"
-        }
-    ],
+    }
     "scripts": {
-        "post-root-package-install": [
-            "SymfonyStandard\\Composer::hookRootPackageInstall"
-        ],
         "post-install-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
@@ -64,14 +52,14 @@
         "bin-dir": "bin",
         "component-dir": "web/components"
     },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
-        },
-        "branch-alias": {
-            "dev-master": "2.5-dev"
         }
     }
 }
