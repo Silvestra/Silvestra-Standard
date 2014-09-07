@@ -29,7 +29,7 @@
         "sensio/generator-bundle": "~2.3",
         "tadcka/generator-bundle": "dev-master",
         "phpunit/phpunit": "~4.2"
-    }
+    },
     "scripts": {
         "post-install-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
