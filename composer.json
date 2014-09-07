@@ -1,6 +1,14 @@
 {
     "name": "silvestra/silvestra-standard",
+    "homepage": "https://github.com/Silvestra/Silvestra-Standard",
     "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tadas Gliaubicas",
+            "email": "tadcka89@gmail.com"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.5.*",
@@ -19,7 +27,6 @@
         "nercury/translation-editor-bundle": "0.1.x-dev",
 
         "tadcka/tree": "dev-master",
-        "tadcka/tree-bundle": "dev-master",
         "tadcka/jstree-bundle": "dev-master",
         "tadcka/routing-bundle": "dev-master",
         "tadcka/sitemap-bundle": "dev-master",
