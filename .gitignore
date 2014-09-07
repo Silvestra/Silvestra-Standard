@@ -1,0 +1,15 @@
+.idea/*
+.idea
+web/components/*
+web/bundles/*
+web/css/*
+web/js/*
+app/bootstrap.php.cache
+app/cache/*
+app/logs/*
+build/
+vendor
+/app/config/parameters.yml
+/phpunit.xml
+/composer.lock
+/composer.phar

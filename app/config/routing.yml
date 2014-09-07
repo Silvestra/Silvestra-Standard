@@ -1,0 +1,31 @@
+silvestra_admin:
+    resource: "@SilvestraAdminBundle/Resources/config/routing/admin.xml"
+    prefix:   /admin
+
+silvestra_admin_text_node:
+    resource: "@SilvestraTextNodeBundle/Resources/config/routing/text_node.xml"
+    prefix:   /admin
+
+tadcka_admin_sitemap:
+    resource: "@TadckaSitemapBundle/Resources/config/routing/sitemap.xml"
+    prefix:   /admin
+
+tadcka_admin_sitemap_node:
+    resource: "@TadckaSitemapBundle/Resources/config/routing/node.xml"
+    prefix:   /admin
+
+tadcka_admin_sitemap_seo:
+    resource: "@TadckaSitemapBundle/Resources/config/routing/seo.xml"
+    prefix:   /admin
+
+tadcka_admin_sitemap_preview:
+    resource: "@TadckaSitemapBundle/Resources/config/routing/preview.xml"
+    prefix:   /admin
+
+fos_user_security:
+    resource: "@FOSUserBundle/Resources/config/routing/security.xml"
+
+fos_user_profile:
+    resource: "@FOSUserBundle/Resources/config/routing/profile.xml"
+    prefix: /admin/profile
+
