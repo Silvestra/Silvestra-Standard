@@ -23,7 +23,10 @@
         "tadcka/jstree-bundle": "dev-master",
         "tadcka/routing-bundle": "dev-master",
         "tadcka/sitemap-bundle": "dev-master",
-        "tadcka/text-bundle": "dev-master"
+        "tadcka/text-bundle": "dev-master",
+
+        "silvestra/sandbox-bundle": "dev-master",
+        "silvestra/silvestra": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
@@ -53,7 +56,9 @@
         "component-dir": "web/components"
     },
     "autoload": {
-        "psr-0": { "": "src/" }
+        "psr-0": {
+            "": "src/"
+        }
     },
     "extra": {
         "symfony-app-dir": "app",
