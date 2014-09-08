@@ -5,6 +5,7 @@ web/bundles/*
 web/css/*
 web/js/*
 web/uploads/*
+web/media/*
 web/assetic/*
 app/bootstrap.php.cache
 app/cache/*
