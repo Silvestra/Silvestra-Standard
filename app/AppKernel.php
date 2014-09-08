@@ -24,6 +24,7 @@ class AppKernel extends Kernel
             new Trsteel\CkeditorBundle\TrsteelCkeditorBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             new FM\ElfinderBundle\FMElfinderBundle(),
+            new Liip\ImagineBundle\LiipImagineBundle(),
 
             new Tadcka\Bundle\RoutingBundle\TadckaRoutingBundle(),
             new Tadcka\Bundle\SitemapBundle\TadckaSitemapBundle(),
@@ -34,6 +35,7 @@ class AppKernel extends Kernel
             new Silvestra\Bundle\FrontendBundle\SilvestraFrontendBundle(),
             new Silvestra\Bundle\SandboxBundle\SilvestraSandboxBundle(),
             new Silvestra\Bundle\TextNodeBundle\SilvestraTextNodeBundle(),
+            new Silvestra\Bundle\MediaBundle\SilvestraMediaBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

@@ -26,7 +26,8 @@
         "friendsofsymfony/user-bundle": "2.0.*@dev",
         "nercury/translation-editor-bundle": "0.1.x-dev",
         "stof/doctrine-extensions-bundle": "~1.1",
-        "helios-ag/fm-elfinder-bundle": "2.1",
+        "helios-ag/fm-elfinder-bundle": "~2.1",
+        "liip/imagine-bundle": "~1.0",
 
         "tadcka/tree": "dev-master",
         "tadcka/jstree-bundle": "dev-master",
