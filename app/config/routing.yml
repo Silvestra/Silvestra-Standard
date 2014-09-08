@@ -22,6 +22,9 @@ tadcka_admin_sitemap_preview:
     resource: "@TadckaSitemapBundle/Resources/config/routing/preview.xml"
     prefix:   /admin
 
+elfinder:
+     resource: "@FMElfinderBundle/Resources/config/routing.yml"
+
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
 

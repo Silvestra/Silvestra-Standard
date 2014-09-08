@@ -4,6 +4,8 @@ web/components/*
 web/bundles/*
 web/css/*
 web/js/*
+web/uploads/*
+web/assetic/*
 app/bootstrap.php.cache
 app/cache/*
 app/logs/*

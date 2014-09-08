@@ -36,7 +36,7 @@ twig:
 assetic:
     debug:          "%kernel.debug%"
     use_controller: false
-    bundles:        [ SilvestraAdminBundle, NercuryTranslationEditorBundle, FOSUserBundle ]
+    bundles:        [ SilvestraAdminBundle, NercuryTranslationEditorBundle, FOSUserBundle, FMElfinderBundle ]
     #java: /usr/bin/java
     filters:
         cssrewrite: ~
@@ -115,3 +115,46 @@ fos_user:
 knp_menu:
     templating: false # if true, enables the helper for PHP templates
     default_renderer: twig # The renderer to use, list is also available by default
+
+trsteel_ckeditor:
+    class: Trsteel\CkeditorBundle\Form\Type\CkeditorType
+    transformers: []
+    toolbar: ['document', 'clipboard', 'basicstyles','styles','paragraph', 'links', 'insert','tools']
+    toolbar_groups:
+        document: ['Source']
+        clipboard: ['Undo','PasteFromWord']
+        editing: ['Find','Replace','-','SelectAll']
+        basicstyles: ['Bold','Italic','Underline','Strike','Subscript','Superscript','-','RemoveFormat']
+        paragraph: ['JustifyLeft', 'JustifyCenter','JustifyRight','-','NumberedList','BulletedList','-','Outdent','Indent']
+        links: ['Link','Unlink','Anchor']
+        insert: ['Image','Table','HorizontalRule','Flash','Iframe','contactform']
+        styles: ['Styles']
+        tools: ['Maximize']
+    ui_color: '#CCCCCC'
+    width: 100% #Integer or %
+    height: 120 #Integer or %
+    startup_outline_blocks: false
+    force_paste_as_plaintext: true
+    language: %locale%
+    filebrowser_image_browse_url:
+        route: elfinder
+        route_parameters:
+             instance: default
+
+fm_elfinder:
+    instances:
+        default:
+            locale: %locale% # defaults to current request locale
+            editor: ckeditor # other choices are tinymce or simple, and form
+            fullscreen: true # defaults true, applies to simple and ckeditor editors
+            include_assets: true # disable if you want to handle loading of the javascript and css assets yourself
+            compression: false # enable if you configured the uglifycss and uglifyjs2 assetic filters and want compression
+            connector:
+                debug: false # defaults to false
+                roots:       # at least one root must be defined
+                    uploads:
+                        driver: LocalFileSystem
+                        path: uploads
+                        upload_allow: ['image/png', 'image/jpg', 'image/jpeg']
+                        upload_deny: ['all']
+                        upload_max_size: 2M

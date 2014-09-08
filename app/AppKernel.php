@@ -23,6 +23,7 @@ class AppKernel extends Kernel
             new Nercury\TranslationEditorBundle\NercuryTranslationEditorBundle(),
             new Trsteel\CkeditorBundle\TrsteelCkeditorBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+            new FM\ElfinderBundle\FMElfinderBundle(),
 
             new Tadcka\Bundle\RoutingBundle\TadckaRoutingBundle(),
             new Tadcka\Bundle\SitemapBundle\TadckaSitemapBundle(),
