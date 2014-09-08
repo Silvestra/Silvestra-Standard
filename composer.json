@@ -36,13 +36,20 @@
         "tadcka/text-bundle": "dev-master",
 
         "silvestra/sandbox-bundle": "dev-master",
-        "silvestra/silvestra": "dev-master"
+        "silvestra/silvestra": "dev-master",
+        "silvestra/sb-admin": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
         "tadcka/generator-bundle": "dev-master",
         "phpunit/phpunit": "~4.2"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url" : "https://github.com/Silvestra/SBAdmin.git"
+        }
+    ],
     "scripts": {
         "post-install-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
