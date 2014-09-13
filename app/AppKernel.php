@@ -35,7 +35,6 @@ class AppKernel extends Kernel
             new Silvestra\Bundle\FrontendBundle\SilvestraFrontendBundle(),
             new Silvestra\Bundle\SandboxBundle\SilvestraSandboxBundle(),
             new Silvestra\Bundle\TextNodeBundle\SilvestraTextNodeBundle(),
-            new Silvestra\Bundle\MediaBundle\SilvestraMediaBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
