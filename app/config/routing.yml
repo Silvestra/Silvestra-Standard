@@ -6,10 +6,6 @@ silvestra_admin_text_node:
     resource: "@SilvestraTextNodeBundle/Resources/config/routing/text_node.xml"
     prefix:   /admin
 
-silvestra_admin_media_uploader:
-    resource: "@SilvestraMediaBundle/Resources/config/routing/uploader.xml"
-    prefix:   /admin
-
 
 tadcka_admin_sitemap:
     resource: "@TadckaSitemapBundle/Resources/config/routing/sitemap.xml"
