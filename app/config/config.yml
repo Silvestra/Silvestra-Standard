@@ -107,12 +107,6 @@ silvestra_text_node:
         model:
             text_node: Silvestra\Bundle\SandboxBundle\Entity\TextNode
 
-silvestra_media:
-    db_driver: orm
-    class:
-        model:
-            file: Silvestra\Bundle\SandboxBundle\Entity\File
-
 fos_user:
     db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
     firewall_name: admin
