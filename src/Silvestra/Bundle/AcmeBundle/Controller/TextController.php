@@ -14,7 +14,7 @@ namespace Silvestra\Bundle\AcmeBundle\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Tadcka\Bundle\SitemapBundle\Model\NodeInterface;
-use Tadcka\Bundle\TextNodeBundle\Model\TextNodeInterface;
+use Silvestra\Bundle\TextNodeBundle\Model\TextNodeInterface;
 use Tadcka\TextBundle\Model\TextTranslationInterface;
 use Silvestra\Bundle\FrontendBundle\Controller\AbstractFrontendController;
 
