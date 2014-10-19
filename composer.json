@@ -21,8 +21,6 @@
         "sensio/distribution-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
 
-        "knplabs/knp-menu": "2.0.*@dev",
-        "knplabs/knp-menu-bundle": "2.0.*@dev",
         "friendsofsymfony/user-bundle": "2.0.*@dev",
         "nercury/translation-editor-bundle": "0.1.x-dev",
         "stof/doctrine-extensions-bundle": "~1.1",

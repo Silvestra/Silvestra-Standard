@@ -95,8 +95,9 @@ tadcka_sitemap:
             tree: Silvestra\Bundle\SandboxBundle\Entity\Tree
             node: Silvestra\Bundle\SandboxBundle\Entity\Node
             node_translation: Silvestra\Bundle\SandboxBundle\Entity\NodeTranslation
-    controllers_by_node_type:
-        text: TadckaSandboxBundle:Text:index.html.twig
+    node_type:
+        controllers:
+            text: TadckaSandboxBundle:Text:index.html.twig
     multi_language:
         enabled: true
         locales: ['lt', 'en']
