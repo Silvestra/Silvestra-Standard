@@ -33,6 +33,7 @@ class AppKernel extends Kernel
             new Silvestra\Bundle\AdminBundle\SilvestraAdminBundle(),
             new Silvestra\Bundle\Admin\UserBundle\SilvestraAdminUserBundle(),
             new Silvestra\Bundle\FrontendBundle\SilvestraFrontendBundle(),
+            new Silvestra\Bundle\SeoBundle\SilvestraSeoBundle(),
             new Silvestra\Bundle\SandboxBundle\SilvestraSandboxBundle(),
             new Silvestra\Bundle\TextNodeBundle\SilvestraTextNodeBundle(),
         );
