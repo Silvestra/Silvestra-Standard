@@ -71,6 +71,25 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
 
+silvestra_seo:
+    db_driver: orm
+    class:
+        model:
+            seo_metadata: Silvestra\Bundle\SandboxBundle\Entity\SeoMetadata
+
+silvestra_text:
+    db_driver: orm
+    class:
+        model:
+            text: Silvestra\Bundle\SandboxBundle\Entity\Text
+            text_translation: Silvestra\Bundle\SandboxBundle\Entity\TextTranslation
+
+silvestra_text_node:
+    db_driver: orm
+    class:
+        model:
+            text_node: Silvestra\Bundle\SandboxBundle\Entity\TextNode
+
 tadcka_routing:
     db_driver: orm
     route_manager: tadcka_routing.manager.route.in_memory
@@ -80,13 +99,6 @@ tadcka_routing:
             redirect_route: Silvestra\Bundle\SandboxBundle\Entity\RedirectRoute
     chain_router:
         enabled: true
-
-tadcka_text:
-    db_driver: orm
-    class:
-        model:
-            text: Silvestra\Bundle\SandboxBundle\Entity\Text
-            text_translation: Silvestra\Bundle\SandboxBundle\Entity\TextTranslation
 
 tadcka_sitemap:
     db_driver: orm
@@ -102,17 +114,7 @@ tadcka_sitemap:
         enabled: true
         locales: ['lt', 'en']
 
-silvestra_seo:
-    db_driver: orm
-    class:
-        model:
-            seo_metadata: Silvestra\Bundle\SandboxBundle\Entity\SeoMetadata
 
-silvestra_text_node:
-    db_driver: orm
-    class:
-        model:
-            text_node: Silvestra\Bundle\SandboxBundle\Entity\TextNode
 
 fos_user:
     db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'

@@ -28,13 +28,13 @@ class AppKernel extends Kernel
 
             new Tadcka\Bundle\RoutingBundle\TadckaRoutingBundle(),
             new Tadcka\Bundle\SitemapBundle\TadckaSitemapBundle(),
-            new Tadcka\TextBundle\TadckaTextBundle(),
 
             new Silvestra\Bundle\AdminBundle\SilvestraAdminBundle(),
             new Silvestra\Bundle\Admin\UserBundle\SilvestraAdminUserBundle(),
             new Silvestra\Bundle\FrontendBundle\SilvestraFrontendBundle(),
             new Silvestra\Bundle\SeoBundle\SilvestraSeoBundle(),
             new Silvestra\Bundle\SandboxBundle\SilvestraSandboxBundle(),
+            new Silvestra\Bundle\TextBundle\SilvestraTextBundle(),
             new Silvestra\Bundle\TextNodeBundle\SilvestraTextNodeBundle(),
         );
 
