@@ -35,7 +35,7 @@
 
         "silvestra/sandbox-bundle": "dev-master",
         "silvestra/silvestra": "dev-master",
-        "silvestra/sb-admin": "dev-master"
+        "silvestra/sb-admin": "~0.1"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
