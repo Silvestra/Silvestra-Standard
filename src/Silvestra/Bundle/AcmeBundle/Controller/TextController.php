@@ -11,11 +11,11 @@
 
 namespace Silvestra\Bundle\AcmeBundle\Controller;
 
+use Silvestra\Component\Text\Model\TextTranslationInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Tadcka\Bundle\SitemapBundle\Model\NodeInterface;
 use Silvestra\Bundle\TextNodeBundle\Model\TextNodeInterface;
-use Tadcka\TextBundle\Model\TextTranslationInterface;
 use Silvestra\Bundle\FrontendBundle\Controller\AbstractFrontendController;
 
 /**
@@ -65,7 +65,7 @@ class TextController extends AbstractFrontendController
      */
     private function getTextNodeOr404(NodeInterface $node)
     {
-        $textNode = $this->container->get('tadcka_text_node.manager.text_node')->findTextNodeByNode($node);
+        $textNode = $this->container->get('silvestra_text_node.manager.text_node')->findTextNodeByNode($node);
         if (null === $textNode) {
             throw new NotFoundHttpException('Not found text node!');
         }
