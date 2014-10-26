@@ -30,7 +30,7 @@ twig:
     strict_variables: "%kernel.debug%"
     form:
           resources:
-              - 'SilvestraAdminBundle:Form:bootstrap.html.twig'
+              - 'SilvestraAdminBundle:Form:bootstrap_3_layout.html.twig'
 
 # Assetic Configuration
 assetic:
@@ -109,7 +109,7 @@ tadcka_sitemap:
             node_translation: Silvestra\Bundle\SandboxBundle\Entity\NodeTranslation
     node_type:
         controllers:
-            text: TadckaSandboxBundle:Text:index.html.twig
+            text: SilvestraAcmeBundle:Text:index
     multi_language:
         enabled: true
         locales: ['lt', 'en']

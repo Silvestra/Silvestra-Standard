@@ -8,19 +8,7 @@ silvestra_admin_text_node:
 
 
 tadcka_admin_sitemap:
-    resource: "@TadckaSitemapBundle/Resources/config/routing/sitemap.xml"
-    prefix:   /admin
-
-tadcka_admin_sitemap_node:
-    resource: "@TadckaSitemapBundle/Resources/config/routing/node.xml"
-    prefix:   /admin
-
-tadcka_admin_sitemap_seo:
-    resource: "@TadckaSitemapBundle/Resources/config/routing/seo.xml"
-    prefix:   /admin
-
-tadcka_admin_sitemap_preview:
-    resource: "@TadckaSitemapBundle/Resources/config/routing/preview.xml"
+    resource: "@TadckaSitemapBundle/Resources/config/routing/all.xml"
     prefix:   /admin
 
 
