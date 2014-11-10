@@ -22,15 +22,15 @@
         "incenteev/composer-parameter-handler": "~2.0",
 
         "friendsofsymfony/user-bundle": "2.0.*@dev",
-        "nercury/translation-editor-bundle": "0.1.x-dev",
+        "nercury/translation-editor-bundle": "~0.1",
         "stof/doctrine-extensions-bundle": "~1.1",
         "helios-ag/fm-elfinder-bundle": "~2.1",
         "liip/imagine-bundle": "~1.0",
 
-        "tadcka/tree": "dev-master",
-        "tadcka/jstree-bundle": "dev-master",
-        "tadcka/routing-bundle": "dev-master",
-        "tadcka/sitemap-bundle": "dev-master",
+        "tadcka/routing": "0.2.*@dev",
+        "tadcka/tree": "0.2.*@dev",
+        "tadcka/routing-bundle": "0.2.*@dev",
+        "tadcka/sitemap-bundle": "0.3.*@dev",
 
         "silvestra/sandbox-bundle": "dev-master",
         "silvestra/silvestra": "dev-master",

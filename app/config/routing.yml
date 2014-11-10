@@ -3,7 +3,7 @@ silvestra_admin:
     prefix:   /admin
 
 silvestra_admin_text_node:
-    resource: "@SilvestraTextNodeBundle/Resources/config/routing/text_node.xml"
+    resource: "@SilvestraTextNodeBundle/Resources/config/routing/text-node.xml"
     prefix:   /admin
 
 
