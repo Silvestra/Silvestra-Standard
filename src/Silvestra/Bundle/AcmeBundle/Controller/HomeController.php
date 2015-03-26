@@ -11,14 +11,14 @@
 
 namespace Silvestra\Bundle\AcmeBundle\Controller;
 
-use Silvestra\Bundle\FrontendBundle\Controller\AbstractFrontendController;
+use Silvestra\Bundle\FrontendBundle\Controller\FrontendController;
 
 /**
  * @author Tadas Gliaubicas <tadcka89@gmail.com>
  *
  * @since 9/7/14 1:05 PM
  */
-class HomeController extends AbstractFrontendController
+class HomeController extends FrontendController
 {
     public function indexAction()
     {

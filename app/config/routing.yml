@@ -12,9 +12,6 @@ tadcka_admin_sitemap:
     prefix:   /admin
 
 
-_liip_imagine:
-    resource: "@LiipImagineBundle/Resources/config/routing.xml"
-
 elfinder:
      resource: "@FMElfinderBundle/Resources/config/routing.yml"
 

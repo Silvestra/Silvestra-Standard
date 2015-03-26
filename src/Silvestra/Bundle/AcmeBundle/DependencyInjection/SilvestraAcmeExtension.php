@@ -27,7 +27,8 @@ class SilvestraAcmeExtension extends Extension
         $config = $this->processConfiguration($configuration, $configs);
 
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
-        $loader->load('services.xml');
-        $loader->load('node_types.xml');
+        $loader->load('controllers.xml');
+        $loader->load('node-types.xml');
+//        $loader->load('services.xml');
     }
 }

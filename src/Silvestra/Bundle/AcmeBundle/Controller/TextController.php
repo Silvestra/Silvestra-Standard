@@ -11,19 +11,19 @@
 
 namespace Silvestra\Bundle\AcmeBundle\Controller;
 
+use Silvestra\Bundle\FrontendBundle\Controller\FrontendController;
 use Silvestra\Component\Text\Model\TextTranslationInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-use Tadcka\Bundle\SitemapBundle\Model\NodeInterface;
 use Silvestra\Bundle\Text\NodeBundle\Model\TextNodeInterface;
-use Silvestra\Bundle\FrontendBundle\Controller\AbstractFrontendController;
+use Tadcka\Component\Tree\Model\NodeInterface;
 
 /**
  * @author Tadas Gliaubicas <tadcka89@gmail.com>
  *
  * @since 9/7/14 1:17 PM
  */
-class TextController extends AbstractFrontendController
+class TextController extends FrontendController
 {
     public function indexAction(Request $request)
     {

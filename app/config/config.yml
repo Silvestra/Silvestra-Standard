@@ -119,10 +119,6 @@ fos_user:
     firewall_name: admin
     user_class: Silvestra\Bundle\SandboxBundle\Entity\User
 
-knp_menu:
-    templating: false # if true, enables the helper for PHP templates
-    default_renderer: twig # The renderer to use, list is also available by default
-
 trsteel_ckeditor:
     class: Trsteel\CkeditorBundle\Form\Type\CkeditorType
     transformers: []
@@ -165,14 +161,3 @@ fm_elfinder:
                         upload_allow: ['image/png', 'image/jpg', 'image/jpeg']
                         upload_deny: ['all']
                         upload_max_size: 2M
-liip_imagine:
-    resolvers:
-       default:
-          web_path: ~
-
-    filter_sets:
-        cache: ~
-        thumb:
-            quality: 75
-            filters:
-                thumbnail: { size: [120, 90], mode: outbound }

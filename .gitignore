@@ -14,5 +14,4 @@ build/
 vendor
 /app/config/parameters.yml
 /phpunit.xml
-/composer.lock
 /composer.phar
