@@ -29,9 +29,15 @@ class AppKernel extends Kernel
 
             new Silvestra\Bundle\AdminBundle\SilvestraAdminBundle(),
             new Silvestra\Bundle\Admin\UserBundle\SilvestraAdminUserBundle(),
+            new Silvestra\Bundle\BannerBundle\SilvestraBannerBundle(),
+            new Silvestra\Bundle\FormBundle\SilvestraFormBundle(),
             new Silvestra\Bundle\FrontendBundle\SilvestraFrontendBundle(),
-            new Silvestra\Bundle\SeoBundle\SilvestraSeoBundle(),
+            new Silvestra\Bundle\LocaleBundle\SilvestraLocaleBundle(),
+            new Silvestra\Bundle\MediaBundle\SilvestraMediaBundle(),
+            new Silvestra\Bundle\NotificationBundle\SilvestraNotificationBundle(),
             new Silvestra\Bundle\SandboxBundle\SilvestraSandboxBundle(),
+            new Silvestra\Bundle\SeoBundle\SilvestraSeoBundle(),
+            new Silvestra\Bundle\SiteBundle\SilvestraSiteBundle(),
             new Silvestra\Bundle\TextBundle\SilvestraTextBundle(),
             new Silvestra\Bundle\Text\NodeBundle\SilvestraTextNodeBundle(),
         );

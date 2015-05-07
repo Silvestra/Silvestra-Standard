@@ -71,11 +71,34 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
 
+
+silvestra_banner:
+    db_driver: orm
+    class:
+        model:
+            banner: Silvestra\Bundle\SandboxBundle\Entity\Banner
+            banner_zone: Silvestra\Bundle\SandboxBundle\Entity\BannerZone
+
+silvestra_locale:
+    allowed_locales: ['en']
+
+silvestra_media:
+    db_driver: orm
+    class:
+        model:
+            image: Silvestra\Bundle\SandboxBundle\Entity\Image
+
 silvestra_seo:
     db_driver: orm
     class:
         model:
             seo_metadata: Silvestra\Bundle\SandboxBundle\Entity\SeoMetadata
+
+silvestra_site:
+    db_driver: orm
+    class:
+        model:
+            site: Silvestra\Bundle\SandboxBundle\Entity\Site
 
 silvestra_text:
     db_driver: orm

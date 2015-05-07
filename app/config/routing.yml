@@ -2,6 +2,30 @@ silvestra_admin:
     resource: "@SilvestraAdminBundle/Resources/config/routing/admin.xml"
     prefix:   /admin
 
+silvestra_admin_banner:
+    resource: "@SilvestraBannerBundle/Resources/config/routing/banner.xml"
+    prefix:   /admin
+
+silvestra_admin_banner_zone:
+    resource: "@SilvestraBannerBundle/Resources/config/routing/banner-zone.xml"
+    prefix:   /admin
+
+silvestra_admin_media_image:
+    resource: "@SilvestraMediaBundle/Resources/config/routing/image.xml"
+    prefix:   /admin
+
+silvestra_admin_media_image_cropper:
+    resource: "@SilvestraMediaBundle/Resources/config/routing/image-cropper.xml"
+    prefix:   /admin
+
+silvestra_admin_media_image_uploader:
+    resource: "@SilvestraMediaBundle/Resources/config/routing/image-uploader.xml"
+    prefix:   /admin
+
+silvestra_admin_site:
+    resource: "@SilvestraSiteBundle/Resources/config/routing/site.xml"
+    prefix:   /admin
+
 silvestra_admin_text_node:
     resource: "@SilvestraTextNodeBundle/Resources/config/routing/text-node.xml"
     prefix:   /admin
